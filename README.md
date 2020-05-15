@@ -21,8 +21,8 @@ others entries...
 ```
 
 3. Find the drive you want to use, and copy its `type = ...` to  `... token = ...` section.
-4. Replace all linebreaks with `\n`
-5. Deploy with the button above, and paste that text in `RCLONE_CONFIG`
+4. Base64 encode it https://www.base64encode.org
+5. Deploy with the button above, and paste that text in `RCLONE_CONFIG_BASE64`
 6. Set `RCLONE_DESTINATION` to a path you want to store your downloaded files.
 
 ## FAQ
